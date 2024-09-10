@@ -31,7 +31,8 @@ int main() {
     }
     cout << "<";
     for (int i = 0; i < v.size(); i++) {
-        if (i != 0) cout << ", ";
+        if (i != 0) 
+            cout << ", ";
         cout << v[i];
     }
     cout << ">" << endl;
